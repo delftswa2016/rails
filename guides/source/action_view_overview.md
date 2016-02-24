@@ -260,7 +260,7 @@ With the `as` option we can specify a different name for the local variable. For
 <%= render partial: "product", as: "item" %>
 ```
 
-The `object` option can be used to directly specify which object is rendered into the partial; useful when the template's object is elsewhere (eg. in a different instance variable or in a local variable).
+The `object` option can be used to directly specify which object is rendered into the partial; useful when the template's object is elsewhere (e.g. in a different instance variable or in a local variable).
 
 For example, instead of:
 
@@ -913,7 +913,7 @@ hidden_field(:user, :token)
 
 #### label
 
-Returns a label tag tailored for labelling an input field for a specified attribute.
+Returns a label tag tailored for labeling an input field for a specified attribute.
 
 ```ruby
 label(:article, :title)
