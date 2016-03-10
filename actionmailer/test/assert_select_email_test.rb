@@ -1,3 +1,4 @@
+require 'helper'
 require 'abstract_unit'
 
 class AssertSelectEmailTest < ActionMailer::TestCase

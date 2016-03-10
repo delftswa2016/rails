@@ -1,3 +1,4 @@
+require 'helper'
 require 'abstract_unit'
 require 'active_support/testing/stream'
 
