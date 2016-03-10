@@ -1,3 +1,4 @@
+require 'helper'
 require 'fileutils'
 require 'abstract_unit'
 require 'mailers/base_mailer'

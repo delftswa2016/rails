@@ -1,3 +1,4 @@
+require 'helper'
 require 'abstract_unit'
 require 'action_view'
 require 'action_controller'
