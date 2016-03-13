@@ -84,7 +84,7 @@ module Minitest
     end
 
     # Replace progress reporter for colors if custom reporters are not enabled
-    unless app.config.minitest.enable_reporters
+    if app.config.enable_reporters
       self.reporter.reporters.delete_if { |reporter| reporter.kind_of?(SummaryReporter) || reporter.kind_of?(ProgressReporter) }
       self.reporter << SuppressedSummaryReporter.new(options[:io], options)
       self.reporter << ::Rails::TestUnitReporter.new(options[:io], options)
